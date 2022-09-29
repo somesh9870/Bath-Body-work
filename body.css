@@ -97,6 +97,7 @@
     margin: auto;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 30px;
 }
 .coupon_button ul{
     display: flex;
@@ -109,5 +110,5 @@
     border: 3px solid black;
     list-style: none;
     /* padding: 14px 18px; */
-    /* margin-right: 28px; */
+    margin-right: 28px; 
 }
