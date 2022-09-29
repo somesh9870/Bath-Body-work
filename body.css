@@ -1,0 +1,113 @@
+.poster{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.poster img{
+    width: 100%;
+    margin-top: 100px;
+    z-index: -1;
+}
+.category_box > h2{
+    font-family: "TradeGothicLTW05-BoldNo.2", Arial, sans-serif;
+    text-align: center;
+}
+.category_box{
+    /* border: 2px solid red; */
+    width: 85%;
+    margin: auto;
+}
+.category{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 30px;
+    width: 100%;
+    margin-top: 20px;
+}
+.category div{
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    box-sizing: border-box;
+    color:black;
+}
+.category h4{
+    font-family: "TradeGothicLTW05-BoldNo.2", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
+.category div img{
+    width: 100%;
+}
+.category div:hover{
+    cursor: pointer;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,400px);
+    column-gap: 35px;
+    row-gap: 100px;
+    width: 85%;
+    margin: auto;
+    margin-top: 60px;
+}
+.product div{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: auto; 
+    text-align: center;
+    padding-bottom: 20px;
+    color: black;
+}
+.product img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.product > a > div > p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #666666;
+    font-family: TradeGothicLTW05-Light, Arial, sans-serif;
+    margin-bottom: 8px;
+}
+.product h4{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 16px;
+    font-family: "TradeGothicLTW05-BoldNo.2", Arial, sans-serif;
+    color: #333333;   
+}
+.gift_poster{
+    width: 85%;
+    margin: auto;
+    margin-top: 140px;
+}
+.gift_poster img{
+    width: 100%;
+}
+.coupon_button{
+    border: 1px solid red;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.coupon_button ul{
+    display: flex;
+    column-gap: 16px;
+    row-gap: 24px;
+    padding-top: 32px;
+}
+.coupon_button li{
+    /* background-color: #333333; */
+    border: 3px solid black;
+    list-style: none;
+    /* padding: 14px 18px; */
+    /* margin-right: 28px; */
+}

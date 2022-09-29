@@ -1,11 +1,18 @@
-
+*{
+    background-color: #FFFFFF;
+}
 #navbar{
-    padding: 5px;
-    border: 1px solid black;
+    padding: 0px;
+    /* border: 1px solid black; */
+    box-sizing: border-box; 
     width: 100%;
     height: auto;
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 #u_nav{
+    /* border: 1px solid black; */
     display: flex;
     width: 100%;
     height: auto;
@@ -17,7 +24,7 @@
     width: 30%;
     height: 34px;
     /* border: 3px solid red; */
-    margin-right: -70px;
+    margin-right: 0px;
 }
 #logo>img{
     height: 100%;
@@ -33,7 +40,7 @@
     box-sizing: border-box;
 }
 #upper_buttons>form{
-    border: 1px solid #333333;
+    border: 1px solid gray;
     width: 52%;
     height: 32px;
     margin-right: 30px;
@@ -48,16 +55,21 @@
 }
 #upper_buttons>form input{
     padding: 10px;
-    width: 92%;
+    width: auto;
     text-overflow: ellipsis;
-    transition:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: width 2s;
+    /* transition:cubic-bezier(0.175, 0.885, 0.32, 1.275); */
     /* color: #333333; */
     font-size: 14px;
     line-height: 11px;
     font-weight: 400;
 }
+#upper_buttons>form input:hover{
+    width: 100%;
+
+}
 #upper_buttons>form button{
-    background-color: transparent;
+    background-color: #FFFFFF;
     height: 100%;
     color: #005699;
     width: 15%;
@@ -74,18 +86,68 @@
     margin-right: 15px;
     /* background: url(https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/Sites-BathAndBodyWorks-Site/-/en_US/v1664272002698/images/svg-icons/UI-AddToBag-v2.svg?yocs=o_s_) no-repeat 0%;  */
 }
-#l_navbar{
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-around;
-    width: 85%;
-    margin: auto;
-    color: #333333;
-    background-color: #FFFFFF;
-    margin-top: 10px;
+*{
+    margin: 0;
+    padding: 0;
 }
-#l_navbar a{
-    text-decoration: none;
+nav{
+    background: #fff;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    z-index: 999;
+    box-sizing: border-box; 
+
+}
+.nav-links{
+    display: inline-flex;
+    margin-left: 150px;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
     color: #333333;
     font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 5px;
+    padding: 9px 15px;
+    transition: all 0.3s ease;
+}
+.nav-links li a:hover{
+    background-color: #FFFFFF;
+    text-decoration-line: underline;
+}
+.nav-links .drop-menu_1{
+    background: #242526;
+    width: auto;
+    top: 48px;
+    line-height: 45px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.drop-menu_1 li a{
+    width: 100%;
+    display: block;
+    padding: 10px 10px 10px 30px;
+    font-weight: 100;
+}
+.nav-links li:hover .drop-menu_1{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: #1876a7;
+}
+.nav-links li:nth-child(8)>a{
+    color: red;
+    font-weight: 800;
+}
+.nav-links li>a{
+    margin-right: 12px;
 }
