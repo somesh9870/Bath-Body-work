@@ -70,9 +70,9 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    text-decoration: none;
     color: #666666;
     font-family: TradeGothicLTW05-Light, Arial, sans-serif;
+    text-decoration: none;  
     margin-bottom: 8px;
 }
 .product h4{
@@ -92,23 +92,98 @@
     width: 100%;
 }
 .coupon_button{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 85%;
+    height: auto;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 30px;
+    margin-bottom: 46px;
 }
 .coupon_button ul{
     display: flex;
     column-gap: 16px;
     row-gap: 24px;
     padding-top: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .coupon_button li{
-    /* background-color: #333333; */
-    border: 3px solid black;
+    /* border: 3px solid black; */
     list-style: none;
-    /* padding: 14px 18px; */
-    margin-right: 28px; 
+    padding: 14px 0px;
+    margin-right: 28px;
+    color: aliceblue;   
+}
+.coupon_button li a{
+    background-color: #333333;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 16px 24px;
+    font-family: "TradeGothicLTW05-BoldNo.2", Arial, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 20px;
+}
+.coupon_button li :hover{
+    background: #efe3e3;
+    color: #333333;
+}
+.policy{
+    /* border: 2px solid black; */
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+.policy>h2{
+    text-align: center;
+    font-family: "TradeGothicLTW05-BoldNo.2", Arial, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.policy > div{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 40px;
+    width: 100%;
+    height: auto;
+}
+.policy > div > a{
+    /* border: 2px solid red; */
+    text-align: center;
+    color: #333333;
+    font-size: 13px;
+    line-height: 12px;
+    font-weight: 600;
+    font-family: "TradeGothicLTW05-BoldNo.2", Arial, sans-serif;
+}.policy img{
+    width: 100%;
+}
+.intro{
+    /* border: 1px solid black; */
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    overflow: visible;
+    margin-top: 50px;
+    font-family: TradeGothicLTW05-Roman,Arial,sans-serif;
+}
+.intro h1{
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: TradeGothicLTW05-Roman,Arial,sans-serif;
+    margin-bottom: 20px;
+    color: #333333;
+}
+.intro p{
+    margin-top: -5px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 90px;
 }
