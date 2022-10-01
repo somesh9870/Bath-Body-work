@@ -1,0 +1,131 @@
+.footer{
+    /* border: 2px solid black; */
+    height: 400px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.footer > div{
+    /* border: 1px solid red; */
+    width: 85%;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+.footer > div > div{
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+    height: auto;
+    margin: auto;
+}
+.left{
+    width: 30%;
+    padding: 30px;
+}
+.right{
+    width: 65%;
+    height: auto;
+}
+.left > p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.left > div{
+    display: grid;
+    line-height: 14px;
+    font-style: 14px;
+    font-family: "Trade Gothic W01 Light", Arial, sans-serif;
+}
+.left div input{
+    padding: 8px;
+    border: 1px solid rgb(199, 199, 199);
+    width: 60%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.email{
+    display: flex;
+}
+.email > input:first-child{
+    width: 140%;
+    margin-right: 10px;
+}
+.email > input + input{
+    background: #333333;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.email > input + input:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #333333;
+}
+.left label{
+    font-size: 14px;
+    line-height: 18px;
+}
+.left > div > p{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.right>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-area: 20px;
+    height: auto;
+}
+.right > div > div{
+    /* border: 1px solid blue; */
+    height: auto%;
+    padding: 20px;
+}
+.right ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    color: gray;
+}
+.right header{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Trade Gothic W01 Bold_2", Arial, sans-serif;
+    line-height: 18px;
+}
+.right li:hover{
+    cursor: pointer;
+}
+.under_foot{
+    /* border: 2px solid black;  */
+    box-sizing: border-box;
+    height: auto;
+    margin-top: 2px;
+}
+.under_foot ul{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    display: flex; 
+    flex-wrap: wrap;
+    row-gap: 12px;
+    margin-bottom: 20px;
+    /* background: #f2f2f2; */
+}
+.under_foot>div>ul>li{
+    margin-right: 20px;  
+    list-style: none;
+    text-align: center;
+    width: auto;
+    color: rgb(66, 63, 63);
+    /* background: #f2f2f2; */
+}
+.under_foot p{
+    text-align: center;
+    color: gray;
+    /* background: #f2f2f2; */
+}
