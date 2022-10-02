@@ -5,7 +5,7 @@
 }
 .poster img{
     width: 100%;
-    margin-top: 100px;
+    margin-top: 101.5px;
     z-index: -1;
 }
 .category_box > h2{
@@ -28,7 +28,6 @@
     /* border: 1px solid black; */
     width: 100%;
     text-align: center;
-    text-decoration: underline;
     box-sizing: border-box;
     color:black;
 }
@@ -43,6 +42,8 @@
 }
 .category div:hover{
     cursor: pointer;
+    text-decoration: none;
+    width: 130%;
 }
 .product{
     display: grid;

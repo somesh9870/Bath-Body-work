@@ -1,0 +1,164 @@
+.links{
+    position: relative;
+    top: 110px;
+    display: inline-flex;
+    column-gap: 15px;
+    padding: 20px;
+}
+.links a{
+    color: black;
+    font-size: 13px;
+    line-height: 16px;
+}
+.links a:first-child:hover{
+    text-decoration: none;
+}
+.links p+a{
+    text-decoration: none;
+}
+.login_poster{
+    width: 70%;
+    margin: auto;
+}
+.login_poster img{
+    width: 100%;
+    margin-top: 110px;
+}
+.header{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.header h1{
+    font-family: "Trade Gothic W01 Light", Arial, sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 21px;
+}
+hr{
+    width: 70%;
+    margin: auto;
+    color: black;
+    margin-bottom: 40px;
+}
+.box{
+    /* border: 1px solid green; */
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.login{
+    border-right: 1px solid rgb(210, 210, 210);
+    width: 50%;
+    padding: 30px;
+}
+.box h1{
+    text-align: center;
+    font-size:16px;
+    font-weight:400;
+    line-height:18px;
+    color: #333333;
+    font-family: "Trade Gothic W01 Light", Arial, sans-serif;
+}
+.login>p{
+    text-align: center;
+    font-size: 15px;
+    font-family:"Trade Gothic W01 Light", Arial, sans-serif; 
+    font-weight:400;
+    line-height: 24px;
+    color: #666666;
+    margin: 5px 0 0 0;
+}
+.login form{
+    display: grid;
+    padding: 30px;
+}
+.login form label ,form p{
+    font-family: "Trade Gothic W01 Light", Arial, sans-serif;
+    font-size:13px;
+    line-height: 14px;
+    color: #333333;
+}
+.login form input{
+    padding: 8px;
+    border: 1px solid rgb(210, 210, 210);
+    margin: 3px 50px 10px 0;
+}
+.login form div{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.login form div>p:first-child:hover{
+    cursor: pointer;
+}
+.login input[type="checkbox"]{
+    margin-left: 90px;
+    margin-right: 10px;
+}
+.login form div+p{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.login form div+p:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.login form > p+input{
+    width: 30%;
+    margin: auto;
+    background: #333333;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+}
+.login form > p+input:hover{
+    cursor: pointer;
+    background: #ffffff;
+    color: #333333;
+}
+.signup{
+    /* border: 2px solid brown; */
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+}
+.signup img{
+    width: 90%;
+    margin-bottom: 15px;
+}
+.signup>p{
+    text-align: center;
+    font-size: 14px;
+    font-family:"Trade Gothic W01 Light", Arial, sans-serif; 
+    font-weight:400;
+    line-height: 24px;
+    color: #666666;
+    margin: 5px 0 20px 0;
+}
+.signup input{
+    padding: 12px 26px;
+    background:#333333;
+    color: #ffffff;
+    font-size: 12px;
+    border: 0;
+}
+.signup input:hover{
+    cursor: pointer;
+    background: #ffffff;
+    color: #333333;
+}
+.question{
+    text-align: center;
+    font-size: 14px;
+    font-family:"Trade Gothic W01 Light", Arial, sans-serif; 
+    font-weight:400;
+    line-height: 24px;
+    color: #666666;
+    margin: 35px 0 20px 0;
+}

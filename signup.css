@@ -1,0 +1,101 @@
+.links{
+    position: relative;
+    top: 110px;
+    display: inline-flex;
+    column-gap: 15px;
+    padding: 20px;
+}
+.links a{
+    color: black;
+    font-size: 13px;
+    line-height: 16px;
+}
+.links a:first-child:hover{
+    text-decoration: none;
+}
+.links p+a{
+    text-decoration: none;
+}
+.login_poster{
+    width: 70%;
+    margin: auto;
+}
+.login_poster img{
+    width: 100%;
+    margin-top: 110px;
+}
+.header{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.header h1{
+    font-family: "Trade Gothic W01 Light", Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 21px;
+    color: #413f3f;
+}
+hr{
+    width: 70%;
+    margin: auto;
+    color: black;
+    margin-bottom: 10px;
+}
+.form{
+    /* border: 1px solid black; */
+    width: 30%;
+    margin: auto;
+    display: grid;
+    padding: 10px;
+}
+.form input{
+    margin: 10px 0 34px 0;
+    padding: 9px;
+    border: 1px solid rgb(189, 185, 185);
+}
+.form label{
+    font-size: 13px;
+    line-height: 14px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Trade Gothic W01 Light", Arial, sans-serif;
+}
+.form>p{
+    margin: -25px 0 34px 0;
+    font-size: 13px;
+    color: gray;
+}
+.form p~p{
+    color: #333333;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0 0 5px 0;
+}
+.form p~p:hover{
+    cursor: pointer;
+}
+.form p+input{
+    width: 50%;
+    margin: auto;
+    background: #333333;
+    color: #ffffff;
+    font-size: 12px;
+}
+.form p+input:hover{
+    background: #ffffff;
+    color: #333333;
+    cursor: pointer;
+}
+.question{
+    text-align: center;
+    font-size: 12px;
+    font-family:"Trade Gothic W01 Light", Arial, sans-serif; 
+    font-weight:400;
+    line-height: 24px;
+    color: #666666;
+    margin: 35px 0 100px 0;
+}
