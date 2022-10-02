@@ -6,10 +6,11 @@
     /* border: 1px solid black; */
     box-sizing: border-box; 
     width: 100%;
-    height: auto;
+    height: 110px;
     position: fixed;
     background: #FFFFFF;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    z-index: 1;
 }
 #u_nav{
     /* border: 1px solid black; */
@@ -26,9 +27,12 @@
     /* border: 3px solid red; */
     margin-right: 0px;
 }
-#logo>img{
+#logo a img{
     height: 100%;
     width: 100%;
+}
+#logo a img:hover{
+    cursor: pointer;
 }
 #upper_buttons{
     /* border: 1px solid red; */
@@ -74,10 +78,36 @@
     color: #005699;
     width: 15%;
 }
-#acc_icon{
+.acc_icon{
     height: 36px;
     /* border: 1px solid red; */
     margin-right: 20px;
+}
+.acount_logo{
+    list-style: none;
+    border: 1px solid gray;
+    color:rgb(92, 91, 91);
+    display: grid;
+    position: absolute;
+    top: 55px;
+    right: 75px;
+    z-index: 10;
+    padding: 30px 40px 30px 25px;
+    font-size: 15px;
+    row-gap: 15px;
+    opacity: 0;
+    visibility: hidden;
+}
+.acount_logo li{
+    margin-right: 40px;
+    display: block;
+}
+.acc_logo:hover .acount_logo{
+    opacity: 1;
+    visibility: visible;
+}
+.acount_logo li:hover{
+    text-decoration: underline;
 }
 #icon_cart{
     /* border: 2px solid blue; */
@@ -91,18 +121,23 @@
     padding: 0;
 }
 nav{
+    /* border: 1px solid black; */
     background: #fff;
     position: fixed;
-    height: 40px;
+    height: auto;
     width: 100%;
-    line-height: 40px;
-    z-index: 999;
+    line-height: 46px;
+    z-index: 1;
     box-sizing: border-box; 
-
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 .nav-links{
+    /* border: 1px solid black; */
+    width: 100%;
     display: inline-flex;
-    margin-left: 150px;
+    box-sizing: border-box;
+    margin: 1px 110px;
 }
 .nav-links li{
     list-style: none;
@@ -114,13 +149,13 @@ nav{
     font-weight: 500;
     text-decoration: none;
     background: #fff;
-    border-radius: 5px;
     padding: 9px 15px;
     transition: all 0.3s ease;
 }
 .nav-links li a:hover{
     background-color: #FFFFFF;
     text-decoration-line: underline;
+    border-bottom: 3px solid rgba(5, 50, 251, 0.757) ;
 }
 .nav-links .drop-menu_1{
     background: #242526;
