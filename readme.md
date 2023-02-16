@@ -1,4 +1,4 @@
-#Bath and Body Work- Clone
+Bath and Body Work- Clone
 
 - Landing Page 
     - Navabar 
